@@ -374,45 +374,67 @@ $(document).ready(function () {
 <div id="TOC">
 <ul>
 <li><a href="#overview"><span class="toc-section-number">1</span> Overview</a></li>
-<li><a href="#exploring-comp-chem-november-2019"><span class="toc-section-number">2</span> Exploring Comp Chem November 2019</a><ul>
-<li><a href="#objectives"><span class="toc-section-number">2.1</span> Objectives</a></li>
-<li><a href="#research-focus---docking-of-glycopeptide-against-mucin-antibody"><span class="toc-section-number">2.2</span> Research focus - Docking of (glyco)peptide against mucin antibody</a></li>
-<li><a href="#references"><span class="toc-section-number">2.3</span> References</a></li>
-<li><a href="#reflection-what-you-have-learnt"><span class="toc-section-number">2.4</span> Reflection: what you have learnt</a></li>
+<li><a href="#the-computational-chemistry-landscape"><span class="toc-section-number">2</span> The computational chemistry landscape</a></li>
+<li><a href="#tutorials"><span class="toc-section-number">3</span> Tutorials</a></li>
+<li><a href="#exploring-comp-chem-november-2019"><span class="toc-section-number">4</span> Exploring Comp Chem November 2019</a><ul>
+<li><a href="#objectives"><span class="toc-section-number">4.1</span> Objectives</a></li>
+<li><a href="#research-focus---docking-of-glycopeptide-against-mucin-antibody"><span class="toc-section-number">4.2</span> Research focus - Docking of (glyco)peptide against mucin antibody</a></li>
+<li><a href="#your-first-paper-i-think"><span class="toc-section-number">4.3</span> Your first paper ( I think!)</a></li>
+<li><a href="#linux"><span class="toc-section-number">4.4</span> Linux</a></li>
+<li><a href="#future-work"><span class="toc-section-number">4.5</span> Future work</a></li>
+<li><a href="#reflection-what-you-have-learnt"><span class="toc-section-number">4.6</span> Reflection: what you have learnt</a></li>
+<li><a href="#further-reading"><span class="toc-section-number">4.7</span> Further reading</a></li>
+<li><a href="#references"><span class="toc-section-number">4.8</span> References</a></li>
 </ul></li>
-<li><a href="#the-computational-chemistry-landscape"><span class="toc-section-number">3</span> The computational chemistry landscape</a></li>
-<li><a href="#further-reading"><span class="toc-section-number">4</span> Further reading</a></li>
-<li><a href="#all-sorts-of-tool---meta-site-links"><span class="toc-section-number">5</span> All sorts of tool - meta site links</a></li>
-<li><a href="#software-and-docking-tools-that-we-used-in-2019"><span class="toc-section-number">6</span> Software and Docking tools that we used in 2019</a><ul>
-<li><a href="#autodock-vina"><span class="toc-section-number">6.1</span> Autodock Vina</a></li>
-<li><a href="#mgltools"><span class="toc-section-number">6.2</span> MGLTools</a></li>
-<li><a href="#pymol"><span class="toc-section-number">6.3</span> PyMol</a></li>
-<li><a href="#vmd"><span class="toc-section-number">6.4</span> VMD</a></li>
-<li><a href="#avogadro"><span class="toc-section-number">6.5</span> Avogadro</a></li>
-<li><a href="#online-services"><span class="toc-section-number">6.6</span> online services</a></li>
+<li><a href="#software-and-docking-tools"><span class="toc-section-number">5</span> Software and Docking tools</a><ul>
+<li><a href="#autodock-vina"><span class="toc-section-number">5.1</span> Autodock Vina</a></li>
+<li><a href="#mgltools"><span class="toc-section-number">5.2</span> MGLTools</a></li>
+<li><a href="#pymol"><span class="toc-section-number">5.3</span> PyMol</a></li>
+<li><a href="#vmd"><span class="toc-section-number">5.4</span> VMD</a></li>
+<li><a href="#avogadro"><span class="toc-section-number">5.5</span> Avogadro</a></li>
+<li><a href="#galaxy"><span class="toc-section-number">5.6</span> Galaxy!</a></li>
+<li><a href="#online-services"><span class="toc-section-number">5.7</span> Online services</a></li>
+<li><a href="#other-tools"><span class="toc-section-number">5.8</span> Other tools</a><ul>
+<li><a href="#referencing-software"><span class="toc-section-number">5.8.1</span> Referencing software</a></li>
+<li><a href="#alternative-docking-and-computational-software"><span class="toc-section-number">5.8.2</span> Alternative Docking and computational software</a></li>
 </ul></li>
-<li><a href="#other-tools"><span class="toc-section-number">7</span> Other tools</a><ul>
-<li><a href="#referencing-software"><span class="toc-section-number">7.1</span> Referencing software</a></li>
-<li><a href="#alternative-docking-and-computational-software"><span class="toc-section-number">7.2</span> Alternative Docking and computational software</a></li>
 </ul></li>
-<li><a href="#your-first-paper-i-think"><span class="toc-section-number">8</span> Your first paper ( I think!)</a></li>
-<li><a href="#linux"><span class="toc-section-number">9</span> Linux</a></li>
-<li><a href="#tutorials"><span class="toc-section-number">10</span> Tutorials</a></li>
-<li><a href="#future-work"><span class="toc-section-number">11</span> Future work</a></li>
-<li><a href="#licence-and-disclaimer"><span class="toc-section-number">12</span> Licence and Disclaimer</a></li>
+<li><a href="#licence-and-disclaimer"><span class="toc-section-number">6</span> Licence and Disclaimer</a></li>
 </ul>
 </div>
 
 <div id="overview" class="section level1">
 <h1><span class="header-section-number">1</span> Overview</h1>
-<p>Molweni nonke, hi! This document contains information on the computational chemistry landscape please read, try it out and share. It also contains what was accomplishedm during a research engagement week in November 2019.</p>
-<p>The most recent version of this document can always be found at (GITHUB LINK HERE) If you are reading this from a flash drive then downloads of software are included. This is for your personal convenience use and try out docking at home. Rememeer that software versions do change and the latest version will be available on line.</p>
+<p>Molweni nonke, hi! This document contains information on the computational chemistry landscape please read, try it out and share. It also contains what was accomplished during a research engagement week in November 2019, where seven first-year students carried out research for the first time.</p>
+<p>The most recent version of this document can always be found on <a href="https://github.com/chrisbarnettster/docking-vac-workshop">GitHub</a>. If you are reading this from a flash drive then downloads of software are included. This is for your personal convenience and to try out docking at home. Remember that software versions do change and the latest version will be available online.</p>
+</div>
+<div id="the-computational-chemistry-landscape" class="section level1">
+<h1><span class="header-section-number">2</span> The computational chemistry landscape</h1>
+<p>There are many aspects to computational chemistry and in the 1 week workshop we mainly thought about docking (how two molecules can fit together to form a stable complex). Docking is readily understandable from a first-year perspective. During first-year chemistry lectures intermolecular forces, different functional groups, free energy, amino acids and protein structures, sugars and many more key ideas are discussed.</p>
+</div>
+<div id="tutorials" class="section level1">
+<h1><span class="header-section-number">3</span> Tutorials</h1>
+<ul>
+<li>Docking with Vina (Docking a ligand into a receptor)
+<ul>
+<li>Find online at <a href="https://bioinformaticsreview.com/20161214/how-to-perform-docking-in-a-specific-binding-site-using-autodock-vina/">bioinformatics review</a> and <a href="https://www.youtube.com/watch?v=blxSn3Lhdec">YouTube</a> B</li>
+<li>Find on flashdrive
+<ul>
+<li><a href="./tutorials/vina/Tutorial-sitespecificdocking.mp4">Bioinformatics Review Vina tutorial</a></li>
+<li><a href="./tutorials/vina/VinaVideoTut.mp4">Oleg Trott - Vina tutorial</a></li>
+</ul></li>
+</ul></li>
+<li>Docking with Vina using Galaxy
+<ul>
+<li><a href="Protein-ligand_docking.pdf">Protein-ligand_docking.pdf</a></li>
+</ul></li>
+</ul>
 </div>
 <div id="exploring-comp-chem-november-2019" class="section level1">
-<h1><span class="header-section-number">2</span> Exploring Comp Chem November 2019</h1>
-<p>This week is all about adventuring into research. You will grapple with new concepts and learn in a much less structured environment. Ask questions, try new things, and it is OK to make many mistakes - “Failure is, of course, part of the scientific method”[1]. Slack: Join up to share ideas and info</p>
+<h1><span class="header-section-number">4</span> Exploring Comp Chem November 2019</h1>
+<p>This week is all about adventuring into research. You will grapple with new concepts and learn in a much less structured environment. Ask questions, try new things, and it is OK to make many mistakes - “Failure is, of course, part of the scientific method”[1]. We will use Slack for teamwork, sharing ideas and information.</p>
 <div id="objectives" class="section level2">
-<h2><span class="header-section-number">2.1</span> Objectives</h2>
+<h2><span class="header-section-number">4.1</span> Objectives</h2>
 <ul>
 <li>Learn about the landscape of computational modelling. There are different types of computational chemistry modelling and simulations tools. From cheminformatics and docking to molecular modelling to quantum mechanics and coarse-graining. [2]</li>
 <li>Complete docking tutorials - <a href="https://galaxyproject.github.io/training-material/topics/computational-chemistry/tutorials/cheminformatics/tutorial.html" class="uri">https://galaxyproject.github.io/training-material/topics/computational-chemistry/tutorials/cheminformatics/tutorial.html</a></li>
@@ -422,11 +444,52 @@ $(document).ready(function () {
 </ul>
 </div>
 <div id="research-focus---docking-of-glycopeptide-against-mucin-antibody" class="section level2">
-<h2><span class="header-section-number">2.2</span> Research focus - Docking of (glyco)peptide against mucin antibody</h2>
+<h2><span class="header-section-number">4.2</span> Research focus - Docking of (glyco)peptide against mucin antibody</h2>
 <p>Mucin 1 glycoprotein (MUC1) is overexpressed and differently glycosylated in epithelial cancers. This change leads to altered binding of MUC1 to antibodies and is a strategy used by cancer cells for immune-system evasion. To further understand affinity and binding in this scenario, a computational modelling approach is needed. In previous work in this field [3, 4], binding studies were conducted, and the structure of a MUC1 glycopeptide bound to the therapeutic antibody AR20.5 was characterised by crystallisation. The next logical step is to accelerate the investigation of glycopeptide fragment binding against antibodies using computational modelling. Docking will be used to model the binding behaviour. In this research, the necessary tools will be built and integrated to allow in silico glycopeptide fragment binding for the mechanistic screening of glycopeptides against the AR20.5 antibody. The MUC1-antibody system will be the use-case, and existing experimental data will be used to validate our approach.</p>
 </div>
+<div id="your-first-paper-i-think" class="section level2">
+<h2><span class="header-section-number">4.3</span> Your first paper ( I think!)</h2>
+<p>We read <a href="http://dx.doi.org/10.1093/glycob/cww131">“Glycosylation of MUC1 influences the binding of a therapeutic antibody by altering the conformational equilibrium of the antigen”</a> Here is the PDF - this article is FREE - <a href="./papers/cww131.pdf">Glycosylation of MUC1</a>.</p>
+</div>
+<div id="linux" class="section level2">
+<h2><span class="header-section-number">4.4</span> Linux</h2>
+<p>We used CentOS Linux and there are many flavours of Linux just like Fanta, Coke or Sprite there are different Linux flavours. Ubuntu linux is included here. It may be bootable (if used on a USB) but you can also write this to a DVD and boot.</p>
+<ul>
+<li><a href="./os/kubuntu/kubuntu-18.04.3-desktop-amd64.iso">K Ubuntu Linux 64 bit - for most people</a></li>
+<li><a href="./os/kubuntu/kubuntu-18.04.3-desktop-i386.iso">K Ubuntu Linux 32 bit - for people who have a 32 bit machine</a></li>
+<li>Download Ubuntu Linux at UCT <a href="https://ftp.leg.uct.ac.za/pub/linux/ubuntu-dvd/kubuntu/releases/18.04.3/release/" class="uri">https://ftp.leg.uct.ac.za/pub/linux/ubuntu-dvd/kubuntu/releases/18.04.3/release/</a></li>
+<li>Download Ubuntu Linux in South Africa <a href="http://ubuntu.mirror.ac.za/ubuntu-release/18.04.3/" class="uri">http://ubuntu.mirror.ac.za/ubuntu-release/18.04.3/</a></li>
+</ul>
+</div>
+<div id="future-work" class="section level2">
+<h2><span class="header-section-number">4.5</span> Future work</h2>
+<p>What next? Galaxy Training has many more courses for computational chemistry as well as neighbouring disciplines such as bioinformatics. Think about what you are most excited about and try it at home, look for courses on Coursera or find a group of friends who have similar interests.</p>
+</div>
+<div id="reflection-what-you-have-learnt" class="section level2">
+<h2><span class="header-section-number">4.6</span> Reflection: what you have learnt</h2>
+<ul>
+<li>Attended at least 4-5 days and approximately 30 hours of engagement</li>
+<li>completed docking tutorial from biochemical reviews</li>
+<li>Completed Galaxy docking tutorial</li>
+<li>Basic Linux skills</li>
+<li>Academic literacy
+<ul>
+<li>Read your first academic article</li>
+<li>Discussed with peers</li>
+<li>Investigated the literature</li>
+<li>Presentation and overview of work</li>
+<li>Goals, reflection and perseverance and accountability.</li>
+<li>Slack - for group discussion and teamwork.</li>
+</ul></li>
+</ul>
+</div>
+<div id="further-reading" class="section level2">
+<h2><span class="header-section-number">4.7</span> Further reading</h2>
+<p>For the reader who is already enrolled at university, check your library and you will find that you have access to many online journals. Some of these are usually not free to access but you will have access to them. If you are a high school student or member of the public you can find many free articles online. Look for articles labelled open. Certain articles will also be made free for various reasons. You will always be able to read article abstracts (summaries) and supporting information (extra text and data not part of the main article) even if the main article is not free.</p>
+<p>An incomplete list of some interesting journals: - JCTC - JCIM - Bioinformatics - BMC Bioinformatics - PLOS - F1000 Research and many more!</p>
+</div>
 <div id="references" class="section level2">
-<h2><span class="header-section-number">2.3</span> References</h2>
+<h2><span class="header-section-number">4.8</span> References</h2>
 <ol style="list-style-type: decimal">
 <li>Loscalzo J: A celebration of failure. Circulation 2014, 129(9):953-955.</li>
 <li>Directory of in silico Drug Design tools [<a href="https://www.click2drug.org/index.html#Binding%20site%20prediction" class="uri">https://www.click2drug.org/index.html#Binding%20site%20prediction</a>]</li>
@@ -434,112 +497,105 @@ $(document).ready(function () {
 <li>Movahedin M, Brooks TM, Supekar NT, Gokanapudi N, Boons G-J, Brooks CL: Glycosylation of MUC1 influences the binding of a therapeutic antibody by altering the conformational equilibrium of the antigen. Glycobiology 2017, 27(7):677-687.</li>
 </ol>
 </div>
-<div id="reflection-what-you-have-learnt" class="section level2">
-<h2><span class="header-section-number">2.4</span> Reflection: what you have learnt</h2>
+</div>
+<div id="software-and-docking-tools" class="section level1">
+<h1><span class="header-section-number">5</span> Software and Docking tools</h1>
 <ul>
-<li>Attended at least 4-5 days and approximately 30 hours of engagement</li>
-<li>completed docking tutorial from biochemical reviews and youtube.</li>
-<li>Completed Galaxy docking tutorial</li>
-<li>Basic Linux</li>
-<li>Academic literacy
-<ul>
-<li>Read my first academic article - link to article</li>
-<li>Discussed with peers</li>
-<li>Investigated the literature</li>
-<li>Presentation and overview of work</li>
-</ul></li>
-<li>Goals, reflection and perseverance and accountability.</li>
-<li>Slack - for group discussion and teamwork.</li>
+<li><a href="https://www.click2drug.org/index.html#Binding%20site%20prediction">Click2Drug</a></li>
 </ul>
-</div>
-</div>
-<div id="the-computational-chemistry-landscape" class="section level1">
-<h1><span class="header-section-number">3</span> The computational chemistry landscape</h1>
-<p>There are many aspects to computational chemistry and in this 1 week workshop we mainly thought about docking (define) Docking is readily understandable at first year as we have learnt about intermolecular forces, different functional groups, free energy, amino acids and protein structures etc.</p>
-<p>If you are already enrolled at university your library will have access to many online journals. Some of these are usually not free to access but you will have access because you are enrolled. If you are a high school student or member of the public you can find many free articles online. Look for articles labelled open. Certain articles will also be made free for various reasons. You will always be able to read article abstracts (summaries) and suppporting information (extra text and data not part of the main article) even if the main article is not free.</p>
-<p>JCTC JCIM Bioinformatics BMC Bioinformatics PLOS F1000 Research and many more!</p>
-<!-- Include pic ![Reaction Scheme: From the initial di-iridium complex through to the characterised compounds - Vq (quinoline, kinetic) and VII (triazole, thermodynamic)](./scheme.svg){width=120%}[] -->
-</div>
-<div id="further-reading" class="section level1">
-<h1><span class="header-section-number">4</span> Further reading</h1>
-</div>
-<div id="all-sorts-of-tool---meta-site-links" class="section level1">
-<h1><span class="header-section-number">5</span> All sorts of tool - meta site links</h1>
-</div>
-<div id="software-and-docking-tools-that-we-used-in-2019" class="section level1">
-<h1><span class="header-section-number">6</span> Software and Docking tools that we used in 2019</h1>
 <div id="autodock-vina" class="section level2">
-<h2><span class="header-section-number">6.1</span> Autodock Vina</h2>
-<p>To dock the receptor and the ligand. Autodock Vina <a href="http://vina.scripps.edu/download.html" class="uri">http://vina.scripps.edu/download.html</a> <a href="./tools/autodock_vina/autodock_vina_1_1_2_linux_x86.tgz">Autodock Vina</a></p>
+<h2><span class="header-section-number">5.1</span> Autodock Vina</h2>
+<p>Used to dock the receptor and the ligand.</p>
+<ul>
+<li><a href="http://vina.scripps.edu/download.html">download</a></li>
+<li><a href="./tools/autodock_vina/autodock_vina_1_1_2_linux_x86.tgz">autodock_vina_1_1_2_linux_x86.tgz</a></li>
+<li><a href="tools/autodock_vina/autodock_vina_1_1_2_mac_64bit.tar.gz">autodock_vina_1_1_2_mac_64bit.tar.gz</a></li>
+<li><a href="tools/autodock_vina/autodock_vina_1_1_2_mac.tgz">autodock_vina_1_1_2_mac.tgz</a></li>
+<li><a href="tools/autodock_vina/autodock_vina_1_1_2_win32.msi">autodock_vina_1_1_2_win32.msi)</a></li>
+</ul>
 </div>
 <div id="mgltools" class="section level2">
-<h2><span class="header-section-number">6.2</span> MGLTools</h2>
-<p>To prepare the receptor and the ligand in PDBQT format and so on.</p>
-<p><a href="http://mgltools.scripps.edu/downloads" class="uri">http://mgltools.scripps.edu/downloads</a> Possibiliyt include what are, docs and cite <a href="http://mgltools.scripps.edu/downloads/documentation/faq/what-are-pmv-adt-and-vision" class="uri">http://mgltools.scripps.edu/downloads/documentation/faq/what-are-pmv-adt-and-vision</a> <a href="http://mgltools.scripps.edu/downloads/documentation/how-to/citing-pmv-adt-and-vision" class="uri">http://mgltools.scripps.edu/downloads/documentation/how-to/citing-pmv-adt-and-vision</a> <a href="http://mgltools.scripps.edu/documentation" class="uri">http://mgltools.scripps.edu/documentation</a></p>
+<h2><span class="header-section-number">5.2</span> MGLTools</h2>
+<p>Used to prepare the receptor and the ligand in PDBQT format and so on.</p>
+<ul>
+<li><a href="http://mgltools.scripps.edu/downloads">Download</a></li>
+<li><a href="http://mgltools.scripps.edu/downloads/documentation/how-to/citing-pmv-adt-and-vision">How to cite</a></li>
+<li><a href="http://mgltools.scripps.edu/documentation">Online docs</a></li>
+<li><a href="tools/mgltools/mgltools_i86Darwin9_1.5.6.dmg">mgltools_i86Darwin9_1.5.6.dmg</a></li>
+<li><a href="tools/mgltools/mgltools_Linux-x86_1.5.6_Install">mgltools_Linux-x86_1.5.6_Install</a></li>
+<li><a href="tools/mgltools/mgltools_Linux-x86_64_1.5.6_Install">mgltools_Linux-x86_64_1.5.6_Install</a></li>
+<li><a href="tools/mgltools/mgltools_ppcDarwin9_1.5.6.dmg">mgltools_ppcDarwin9_1.5.6.dmg</a></li>
+<li><a href="tools/mgltools/mgltools_win32_1.5.6_Setup.exe">mgltools_win32_1.5.6_Setup.exe)</a></li>
+</ul>
 </div>
 <div id="pymol" class="section level2">
-<h2><span class="header-section-number">6.3</span> PyMol</h2>
-<p>To view the receptor and ligand in PDB format. TO view the output of the docking in PDBQT format conda install -c schrodinger pymol <a href="https://pymol.org/2/" class="uri">https://pymol.org/2/</a> 30 days trial <a href="https://github.com/schrodinger/pymol-open-source" class="uri">https://github.com/schrodinger/pymol-open-source</a> open source version</p>
+<h2><span class="header-section-number">5.3</span> PyMol</h2>
+<p>Used to view the receptor and ligand in PDB format and to view the output of the docking in PDBQT format</p>
+<ul>
+<li><a href="https://pymol.org/2/">download a 30 day trial version</a></li>
+<li><a href="https://github.com/schrodinger/pymol-open-source">download the open source version</a></li>
+<li><a href="tools/pymol/PyMOL-2.3.3_0-Windows-x86_64.exe">PyMOL-2.3.3_0-Windows-x86_64.exe</a></li>
+<li><a href="tools/pymol/PyMOL-2.3.4_121-Linux-x86_64-py37.tar.bz2">PyMOL-2.3.4_121-Linux-x86_64-py37.tar.bz2</a></li>
+<li><a href="tools/pymol/PyMOL-2.3.4_133-MacOS-py37.dmg">PyMOL-2.3.4_133-MacOS-py37.dmg</a></li>
+</ul>
 </div>
 <div id="vmd" class="section level2">
-<h2><span class="header-section-number">6.4</span> VMD</h2>
-<p>For sophisticated molecular selections exploration of structure.For saving out particular pieces (e.g. chain A) of a PDB structure.</p>
-<p>VMD (you should register for use ) please do not distribute this is for your personal use. <a href="https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD" class="uri">https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD</a></p>
+<h2><span class="header-section-number">5.4</span> VMD</h2>
+<p>For sophisticated molecular selections exploration of structure. For saving out particular pieces (e.g. chain A) of a PDB structure.</p>
+<p>VMD (you should register for use ) please do not distribute this, it is for your personal use and you should register. <a href="https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD" class="uri">https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD</a></p>
+<ul>
+<li><a href="tools/vmd/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz">vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz</a></li>
+<li><a href="tools/vmd/vmd193macx86nocuda.dmg">vmd193macx86nocuda.dmg</a></li>
+<li><a href="tools/vmd/vmd193win32cuda.msi">vmd193win32cuda.msi</a></li>
+</ul>
 </div>
 <div id="avogadro" class="section level2">
-<h2><span class="header-section-number">6.5</span> Avogadro</h2>
+<h2><span class="header-section-number">5.5</span> Avogadro</h2>
 <p>For building structures. Especially converting from ligand in sdf format with no 3D coordinates to a 3D structure. This structure can be optimised and then saved in PDB format.</p>
-<p>Avogadro <a href="https://avogadro.cc/" class="uri">https://avogadro.cc/</a> Linux install may be better via apt or yum if possible. ## Galaxy! We used the usegalaxy.eu service to run training. There is also the service available at galaxy-compchem.ilifu.ac.za</p>
-</div>
-<div id="online-services" class="section level2">
-<h2><span class="header-section-number">6.6</span> online services</h2>
-<p>Pubchem PDB</p>
-</div>
-</div>
-<div id="other-tools" class="section level1">
-<h1><span class="header-section-number">7</span> Other tools</h1>
-<div id="referencing-software" class="section level2">
-<h2><span class="header-section-number">7.1</span> Referencing software</h2>
-<p>You will have seen a list of references or a bibliography (these are different by the way). How can we keep track of all interesting references? Use a reference manager. At UCT we have access to a paid for software called EndNote (available from UCT libraries) but there are also free options.</p>
-<p>Zotero - easy to start with! and can make citations for websites Mendeley -</p>
-</div>
-<div id="alternative-docking-and-computational-software" class="section level2">
-<h2><span class="header-section-number">7.2</span> Alternative Docking and computational software</h2>
-<p>Schrodinger (it is paid for) there is national licence at the CHPC but this is restricted to research programmes.</p>
-</div>
-</div>
-<div id="your-first-paper-i-think" class="section level1">
-<h1><span class="header-section-number">8</span> Your first paper ( I think!)</h1>
-<p>We read “Glycosylation of MUC1 influences the binding of a therapeutic antibody by altering the conformational equilibrium of the antigen”. Available online at <a href="http://dx.doi.org/10.1093/glycob/cww131" class="uri">http://dx.doi.org/10.1093/glycob/cww131</a> and here is the PDF - this article is FREE. <a href="./papers/cww131.pdf">Glycosylation of MUC1</a></p>
-</div>
-<div id="linux" class="section level1">
-<h1><span class="header-section-number">9</span> Linux</h1>
-<p>We used CentOS Linux and there are many flavours of Linux just like Fanta, Coke or Sprite there are different Linux flavours. Ubuntu linux is included here. It may be bootable but you can write to a CD. <a href="./os/kubuntu/kubuntu-18.04.3-desktop-amd64.iso">K Ubuntu Linux 64 bit - for most people</a> <a href="./os/kubuntu/kubuntu-18.04.3-desktop-i386.iso">K Ubuntu Linux 32 bit - for people who have a 32 bit machine</a></p>
-<p>Download Ubuntu Linux at UCT <a href="https://ftp.leg.uct.ac.za/pub/linux/ubuntu-dvd/kubuntu/releases/18.04.3/release/" class="uri">https://ftp.leg.uct.ac.za/pub/linux/ubuntu-dvd/kubuntu/releases/18.04.3/release/</a> Download Ubuntu Linux in South Africa <a href="http://ubuntu.mirror.ac.za/ubuntu-release/18.04.3/" class="uri">http://ubuntu.mirror.ac.za/ubuntu-release/18.04.3/</a></p>
-<p><a href="os/kubuntu/kubuntu-18.04.3-desktop-amd64.iso"></a> <a href="tools/avogadro/avogadro-1.2.0.tar.gz"></a> <a href="tools/pymol/PyMOL-2.3.3_0-Windows-x86_64.exe"></a> <a href="os/kubuntu/kubuntu-18.04.3-desktop-i386.iso"></a> <a href="&#39;tools/avogadro/Avogadro-1.2.0n-win32%20(1).exe&#39;"></a> <a href="tools/pymol/PyMOL-2.3.4_121-Linux-x86_64-py37.tar.bz2"></a> <a href="tools/autodock_vina/autodock_vina_1_1_2_linux_x86.tgz"></a> <a href="tools/mgltools/mgltools_i86Darwin9_1.5.6.dmg"></a> <a href="tools/pymol/PyMOL-2.3.4_133-MacOS-py37.dmg"></a> <a href="tools/autodock_vina/autodock_vina_1_1_2_mac.tgz"></a> <a href="tools/mgltools/mgltools_Linux-x86_1.5.6_Install"></a> <a href="tools/vmd/vmd-1.9.3.bin.LINUXAMD64-CUDA8-OptiX4-OSPRay111p1.opengl.tar.gz"></a> <a href="tools/autodock_vina/autodock_vina_1_1_2_mac_64bit.tar.gz"></a> <a href="tools/mgltools/mgltools_Linux-x86_64_1.5.6_Install"></a> <a href="tools/vmd/vmd193macx86nocuda.dmg"></a> <a href="tools/autodock_vina/autodock_vina_1_1_2_win32.msi"></a> <a href="tools/mgltools/mgltools_ppcDarwin9_1.5.6.dmg"></a> <a href="&#39;tools/vmd/vmd193win32cuda%20(1).msi&#39;"></a> <a href="tools/avogadro/Avogadro-1.2.0.dmg"></a> <a href="tools/mgltools/mgltools_win32_1.5.6_Setup.exe"></a> <a href="tools/vmd/vmd193win32cuda.msi"></a></p>
-</div>
-<div id="tutorials" class="section level1">
-<h1><span class="header-section-number">10</span> Tutorials</h1>
 <ul>
-<li>Docking with Vina (Docking X with Y)
+<li><a href="https://avogadro.cc/">Avogadro</a></li>
+<li><a href="tools/avogadro/Avogadro-1.2.0.dmg">tools/avogadro/Avogadro-1.2.0.dmg</a></li>
+<li><a href="tools/avogadro/Avogadro-1.2.0n-win32.exe">tools/avogadro/Avogadro-1.2.0n-win32.exe</a></li>
+<li><a href="tools/avogadro/avogadro-1.2.0.tar.gz">tools/avogadro/avogadro-1.2.0.tar.gz</a> - Linux install may be better via apt or yum if possible.</li>
+</ul>
+</div>
+<div id="galaxy" class="section level2">
+<h2><span class="header-section-number">5.6</span> Galaxy!</h2>
+<p>We used the <a href="https://cheminformatics.usegalaxy.eu/">Galaxy usegalaxy.eu service</a> to run training. <a href="galaxy-compchem.ilifu.ac.za">The South African Galaxy Comp Chem is also available</a>.</p>
+<p>Galaxy Training:</p>
 <ul>
-<li>Find online at <a href="https://bioinformaticsreview.com/20161214/how-to-perform-docking-in-a-specific-binding-site-using-autodock-vina/" class="uri">https://bioinformaticsreview.com/20161214/how-to-perform-docking-in-a-specific-binding-site-using-autodock-vina/</a> and <a href="https://www.youtube.com/watch?v=blxSn3Lhdec" class="uri">https://www.youtube.com/watch?v=blxSn3Lhdec</a></li>
-<li>Find on flashdrive
+<li><a href="https://galaxyproject.github.io/training-material/">Training material online</a></li>
+<li>on the flashdrive:
 <ul>
-<li><a href="./vids/Tutorial-%20site%20specific%20docking%20using%20auto%20dock%20vina.mp4">Bioinformatics Review - Vina tutorial on this flash drive</a></li>
-<li><a href="./vids/VinaVideoTut.mp4">Oleg Trott - Vina tutorial on this flash drive</a></li>
-</ul></li>
+<li><a href="Setting_up_molecular_systems.pdf">Setting_up_molecular_systems.pdf</a></li>
+<li><a href="Running_molecular_dynamics_simulations_using_GROMACS.pdf">Running_molecular_dynamics_simulations_using_GROMACS.pdf</a></li>
+<li><a href="Analysis_of_molecular_dynamics_simulations.pdf">Analysis_of_molecular_dynamics_simulations.pdf</a></li>
 </ul></li>
 </ul>
 </div>
-<div id="future-work" class="section level1">
-<h1><span class="header-section-number">11</span> Future work</h1>
-<p>What next? Galaxy Training has many more courses for computational chemistry as well as neighbouring discplines such as bioinformatics. Think about what you are most excited about and try it at home, look for courses on coursera or find a group of friends who have similar interests.</p>
-<p>More on coding More on chemistry More on Linux</p>
+<div id="online-services" class="section level2">
+<h2><span class="header-section-number">5.7</span> Online services</h2>
+<ul>
+<li><a href="https://pubchem.ncbi.nlm.nih.gov/">Pubchem</a></li>
+<li><a href="https://www.rcsb.org/">Protein Data Bank</a></li>
+<li><a href="https://zinc.docking.org/">ZincDB</a></li>
+</ul>
+</div>
+<div id="other-tools" class="section level2">
+<h2><span class="header-section-number">5.8</span> Other tools</h2>
+<div id="referencing-software" class="section level3">
+<h3><span class="header-section-number">5.8.1</span> Referencing software</h3>
+<p>You will have seen a list of references or a bibliography (these are different by the way). How can we keep track of all interesting references? Use a reference manager. At UCT we have access to a paid for software called EndNote (available from UCT libraries) but there are also free options like Zotero ( easy to start with! and can make citations for websites) or Mendeley.</p>
+</div>
+<div id="alternative-docking-and-computational-software" class="section level3">
+<h3><span class="header-section-number">5.8.2</span> Alternative Docking and computational software</h3>
+<p>Schrodinger (it is paid for). There is South African national licence at the CHPC but from what I understand this is restricted to research programmes. Enquire at the CHPC if you are interested.</p>
+</div>
+</div>
 </div>
 <div id="licence-and-disclaimer" class="section level1">
-<h1><span class="header-section-number">12</span> Licence and Disclaimer</h1>
-<p>MIT License and disclaimer.</p>
+<h1><span class="header-section-number">6</span> Licence and Disclaimer</h1>
+<p><a href="./LICENSE">MIT License and disclaimer</a></p>
 </div>
 
 
