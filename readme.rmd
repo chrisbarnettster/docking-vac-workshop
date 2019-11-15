@@ -178,8 +178,9 @@ Download Ubuntu Linux in South Africa  http://ubuntu.mirror.ac.za/ubuntu-release
 - Docking with Vina (Docking X with Y)
   - Find online at https://bioinformaticsreview.com/20161214/how-to-perform-docking-in-a-specific-binding-site-using-autodock-vina/ and 
 https://www.youtube.com/watch?v=blxSn3Lhdec
-   - Find on flashdrive  ![Bioinformatics Review - Vina tutorial on this flash drive](./vids/Tutorial- site specific docking using auto dock vina.mp4)
-![Oleg Trott - Vina tutorial on this flash drive](./vids/VinaVideoTut.mp4) 
+   - Find on flashdrive
+     - [Bioinformatics Review - Vina tutorial on this flash drive](./vids/Tutorial- site specific docking using auto dock vina.mp4)
+     - [Oleg Trott - Vina tutorial on this flash drive](./vids/VinaVideoTut.mp4) 
 
 # Future work
 What next? Galaxy Training has many more courses for computational chemistry as well as neighbouring discplines such as bioinformatics. 
@@ -190,6 +191,5 @@ More on chemistry
 More on Linux
 
 # Licence and Disclaimer
-Note also 
-No liability.
+MIT License and disclaimer. 
 
